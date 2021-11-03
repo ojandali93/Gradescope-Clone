@@ -4,9 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-	<script src="index.js"></script>
+  <body class='container-fluid'>
+    <div class='row'>
+      <nav class='col-xl-2 col-lg-2 col-md-1 col-sm-1 col-1' style='height:100vh; padding: 36px 24px 0; border-right: 2px solid lightgrey;'>
+        <div>
+          <div>
+            <a style="display: flex;">
+              <svg xmlns='http://ww.w3.org/2000/svg' width="26" height="29" style="height: 17px;" fill="#1ca0a0" viewebbox='0 0 29 26' aria-hidden='true'>
+                <g fill-rule='evenodd'>
+                  <path d='M0 14.763h5.915V25.5H0zM15.057 0h5.915v25.5h-5.915zM7.528 8.589h5.915V25.5H7.528zM22.585 6.174H28.5V25.5h-5.915'></path>
+                </g>
+              </svg>
+              <div style="display: inline-block; margin-left: 14px; font-size: 20px; font-weight: 300; line-height: 25px; color: #1ca0a0">gradescope</div>
+            </a>
+          </div>
+          <div>
+            <p style="font-weight: bold; font-size: 20px; margin-top: 16px;">Your Courses</p>
+          </div>
+          <div>
+            <p style="font-size: 16px; margin-top: 8px;">Welcome to Gradescope! Click on one of your courses to the right, or on the Account menu below.</p>
+          </div>
+          <div tabindex="0" role="button" style="position:fixed; bottom:0; margin-left: -30px; width: 280px; height: 54px; padding: 15px 11px; background-color: #1ca0a0;" class="row">
+            <div role="presentation">
+              <div>
+                <span">
+                  <i aria-hidden="true"></i>
+                  <i aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div style="font-weight: 700; font-size: 14pt; color: white; margin-left: 22px;">Account</div>
+            <div>
+              <i role="img"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="col-xl-10 col-lg-10 col-md-11 col-sm-11 col-11" style='height:100vh; padding: 30px 34px 0; font-size: 28px; font-weight: 300;'>
+        <div class='row'>
+          <p>Your Courses</p>
+        </div>
+        <div class='row' style="font-size:18px;">
+          <p>Fall 2021</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333;">
+              <h3 style="font-size: 20px;">ACS 1100</h3>
+              <h4 style="font-size: 12px;">Introduction to programming</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                9 assignments
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333">
+              <h3 style="font-size: 20px;">ACS 1111</h3>
+              <h4 style="font-size: 12px;">Object Oriented Programming</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                5 assignments
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333">
+              <h3 style="font-size: 20px;">ACS 1700</h3>
+              <h4 style="font-size: 12px;">Web Foundations</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                10 assignments
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333;  margin-top: 24px;">
+              <h3 style="font-size: 20px;">INT 1.1 2021</h3>
+              <h4 style="font-size: 12px;">Int 1.1 Fall Intensive 2021</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                3 assignments
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333;  margin-top: 24px;">
+              <h3 style="font-size: 20px;">SPD 1.1</h3>
+              <h4 style="font-size: 12px;">Intro to Software Product Development</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                5 assignments
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; background-color: #f0f2f5; color: #1f3333;  margin-top: 24px;">
+              <h3 style="font-size: 20px;">SPD 1.2</h3>
+              <h4 style="font-size: 12px;">Agile Development & UI/UX</h4>
+              <div style="margin-left: -14px; width: 108.5%; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; font-size: 14px; font-weight: normal; position: aboslute; margin-top: 58px; background-color: #1ca0a0">
+                6 assignments
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; margin-top: 24px; border: 4px dashed #1ca0a0">
+              <div style="height: 100%; display: flex; align-items: center; justify-content: center; color: #1ca0a0">
+                Add A New Class
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; margin-top: 24px;">
+            </a>
+          </div>
+          <div class="col">
+            <a style="float: left; display: block; width: 90%; height: 165px; padding: 20px 15px; border-radius: 2px; margin-top: 24px;">
+              
+            </a>
+          </div>
+        </div>
+
+        <div tabindex="0" role="button" style="position:fixed; bottom:0; margin-left: -34px; width: 90%; height: 54px; padding: 15px 11px; background-color: #1ca0a0;" class="row">
+          <div style="font-weight: 700; font-size: 14pt; color: white; margin-left: 80%;">Add new class +</div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
